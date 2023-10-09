@@ -12,7 +12,7 @@ print(1 < 3 > 2)
 jitui, tu = map(int, input('输入总数(中间空格)').split())  # map映射成数字
 tu = (tu - jitui*2)/2
 if int(tu) == tu:
-    print('鸡:{0},兔:{1}'.format(int(jitui-tu),int(tu)))
+    print('鸡:{0},兔:{1}'.format(in t(jitui-tu),int(tu)))
 else:
     print('错误')
 
