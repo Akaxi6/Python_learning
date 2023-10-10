@@ -116,4 +116,10 @@ def Myget(*L):
 
 L = input('请输入一些实数')
 
-def demo(L):
+'''x = 3
+def f():
+    print(x)
+    x = 5
+    print(x)
+f()'''
+
