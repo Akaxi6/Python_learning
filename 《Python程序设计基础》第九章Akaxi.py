@@ -55,6 +55,9 @@ with open('sample_pickle.dat', 'wb') as f:    # 注意二进制读写要带b
         pickle.dump(len(data), f)
         for item in data:
             pickle.dump(item, f)    # 写入
+    except:
+        x = 1
+
 
 # pickle.load()    # 读取
 
@@ -71,11 +74,4 @@ sn = struct.pack('你好啊', n, x, b)
 with open('samlpe.dta', 'wb') as f:
     f.write(sn)
     f.write(s.encode())
-
-
-
-
-
-
-
 
